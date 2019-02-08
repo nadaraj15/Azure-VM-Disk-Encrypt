@@ -8,7 +8,7 @@ Azure Disk Encryption is a capability that helps you encrypt your Windows and Li
 
 •	IaaS VMs boot under customer-controlled keys and policies. You can audit their usage in your key vault.
 
-Since Azure has recently started supporting DR for Azure Disk Encryption-enabled VMs Link. To enable disk encryption, we need to leverage Azure AD App and Azure Key Vault service from Azure which help in encryption and decryption.
+Since Azure has recently started supporting DR for Azure Disk Encryption-enabled VMs Link. To enable disk encryption, we need to leverage Azure Key Vault service from Azure which help in encryption and decryption.
 
 ## Prerequisites:
 
