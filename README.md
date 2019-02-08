@@ -5,6 +5,7 @@
 Azure Disk Encryption is a capability that helps you encrypt your Windows and Linux IaaS VM disks. When you apply the Disk Encryption management solution, you can satisfy the following business needs:
 
 •	IaaS VMs are secured at rest by using industry-standard encryption technology to address organizational security and compliance requirements.
+
 •	IaaS VMs boot under customer-controlled keys and policies. You can audit their usage in your key vault.
 
 Since Azure has recently started supporting DR for Azure Disk Encryption-enabled VMs Link. To enable disk encryption, we need to leverage Azure AD App and Azure Key Vault service from Azure which help in encryption and decryption.
