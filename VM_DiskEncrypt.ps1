@@ -1,4 +1,4 @@
-﻿<#
+<#
 **********************Note*************************
 Replace the parametes before executing
 
