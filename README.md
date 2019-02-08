@@ -22,3 +22,5 @@ Below are the steps we need to perform to enable encryption for disks in Azure V
 4.	Run PowerShell script to enable encryption (since enabling encryption from portal is not yet available) 
 
 Kindly follow the document for the steps
+
+Note: In this script we are not using App ID, since new Azure kek encryption method for disk supports without App ID requirement.
