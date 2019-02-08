@@ -1,5 +1,6 @@
-# Azure-VM-Disk-Encrypt
-How to enable Disk Encryption on Azure VM (BitLocker/DM-Crypt)
+# Azure VM Disk Encrypt
+
+#### How to enable Disk Encryption on Azure VM (BitLocker/DM-Crypt)
 
 Azure Disk Encryption is a capability that helps you encrypt your Windows and Linux IaaS VM disks. When you apply the Disk Encryption management solution, you can satisfy the following business needs:
 
