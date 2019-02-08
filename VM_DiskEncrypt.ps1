@@ -37,6 +37,7 @@ Select-AzureRMSubscription -SubscriptionName $SubName
 
 $KeyVault = Get-AzureRmKeyVault -VaultName $KeyVaultName -ResourceGroupName $rgname;
 $diskEncryptionKeyVaultUrl = $KeyVault.VaultUri;
+$sequenceVersion = [Guid]::NewGuid();
 $KeyVaultResourceId = $KeyVault.ResourceId;
 $keyEncryptionKeyUrl = (Get-AzureKeyVaultKey -VaultName $KeyVaultName -Name $keyEncryptionKeyName).Key.kid;
 
